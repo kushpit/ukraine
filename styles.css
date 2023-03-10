@@ -1,0 +1,54 @@
+button {
+  font-size: 2rem;
+  padding: 0.2rem 0.5rem;
+  margin-right: 1rem;
+  border: none;
+  background-color: #f2f2f2;
+  color: #333;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+
+body {
+  background-color: #a6c5c4; /* колір тла */
+  color: rgb(36, 36, 36); /* колір тексту */
+  font-family: Arial, sans-serif; /* шрифт тексту */
+}
+
+h1 {
+  text-align: center; /* вирівнювання заголовка по центру */
+}
+
+h4 {
+  text-align: center; /* вирівнювання заголовка по центру */
+}
+
+
+
+li {
+  margin-bottom: 10px; /* відступ між пунктами списку */
+  background-color: white; /* колір фону пункту */
+  padding: 10px; /* відступи внутрішнього вмісту пункту */
+  border-radius: 5px; /* закруглені кути пункту */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* тінь пункту */
+}
+
+li:before {
+  content: ""; /* виключення маркера */
+  display: inline-block; /* відображення зображення як блок */
+  width: 20px; /* ширина зображення */
+  height: 20px; /* висота зображення */
+  margin-right: 10px; /* відступ між зображенням та текстом */
+  background-image: url('ukraine-flag.png'); /* зображення, що відображає тему пункту */
+  background-size: contain; /* збереження пропорцій зображення */
+  background-repeat: no-repeat; /* відключення повторення зображення */
+  background-position: center; /* вирівнювання зображення по центру */
+}
+
+
+
+
